@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.container {
+  display: flex;
+  position: relative;
+}
+
+.plants {
+  width: 520px;
+  height: auto;
+}
+
+.logo-info {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  justify-content: center;
+  gap: 5px;
+  position: absolute;
+  width: 520px;
+  background-color: rgb(23 25 23 /0.5);
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+}
+
+@font-face {
+  font-family: "Norse Bold";
+  src: url("Norse-Bold.otf");
+}
+
+h1 {
+  font: 5em "Norse Bold", monospace;
+  color: white;
+  margin-top: 30px;
+}
