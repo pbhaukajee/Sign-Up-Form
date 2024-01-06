@@ -11,17 +11,66 @@
       <div class="left"><h1>Hi</h1></div>
       <div class="right">
         <div class="first">
-          <h2>
+          <h3>
             This is not a real online service! You know you need something
             <br />like this in your life to help you realize your deepest
             dreams. <br />
             Sign up <em>now</em> to get started. <br /><br />You
             <em>know</em> you want to.
-          </h2>
+          </h3>
         </div>
-        <div class="second">Hello</div>
-        <div class="third">World</div>
+
+        <form action="" method="get">
+          <div class="second">
+            <h3 style="margin-left: 50px; padding-top: 10px">Let's do this!</h3>
+            <div class="form-main-div">
+              <div class="form-divs">
+                <div class="form-div">
+                  <label for="firstName">FIRST NAME</label>
+                  <input type="text" id="firstName" name="first_name" />
+                </div>
+                <div class="form-div">
+                  <label for="email">EMAIL</label>
+                  <input type="email" id="email" />
+                </div>
+                <div class="form-div">
+                  <label for="Password">PASSWORD</label>
+                  <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    required
+                  />
+                  <p id="error">*password do not match</p>
+                </div>
+              </div>
+              <div class="form-divs">
+                <div class="form-div">
+                  <label for="lastName">LAST NAME</label>
+                  <input type="text" name="last_name" id="lastsName" />
+                </div>
+                <div class="form-div">
+                  <label for="phonenumber">PHONE NUMBER</label>
+                  <input type="tel" name="phonenumber" id="phonenumber" />
+                </div>
+                <div class="form-div">
+                  <label for="confirmPassword">CONFIRM PASSWORD</label>
+                  <input
+                    type="confirmPassword"
+                    name="confirmPassword"
+                    id="confirmPassword"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="third">
+            <button type="submit" class="btn btn-green"></button>
+          </div>
+        </form>
       </div>
     </div>
+    <script src="javascript.js"></script>
   </body>
 </html>
