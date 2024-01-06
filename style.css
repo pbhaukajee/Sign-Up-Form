@@ -47,6 +47,8 @@ h1 {
 .second {
   height: 30vh;
   background-color: white;
+  align-items: center;
+  box-shadow: 2px 5px #e5e7eb;
 }
 .second > h3 {
   margin-left: 30px;
@@ -85,6 +87,36 @@ label {
   color: #85878b;
 }
 
+#error {
+  color: red;
+  font-size: 10px;
+  margin: 1px;
+}
+
+.btn-green {
+  background-color: #596d48;
+  color: white;
+  border: 1px solid #596d48;
+  border-radius: 10px;
+  height: 40px;
+  width: 150px;
+  font-weight: bolder;
+  font-size: small;
+  box-shadow: 2px 5px #e5e7eb;
+}
+
 .third {
-  height: 30vh;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.hyperlink {
+  margin-left: 50px;
+  margin-top: 35px;
+}
+
+a {
+  color: #596d48;
+  text-decoration: none;
+  font-weight: bold;
 }
